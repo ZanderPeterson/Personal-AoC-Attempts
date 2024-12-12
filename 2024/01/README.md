@@ -16,4 +16,7 @@ first part because the way I initially dealt with the dataset
 wasn't very intelligent.
 
 Nevertheless, they were a fun challenge and I learned new
-things, so that was great!
+things, so that is a complete win.
+
+I don't think I'll come up with alternative solutions, at
+least not yet. I may revisit this in the future.

@@ -2,22 +2,15 @@ from typing import List
 
 input_file: str = "input.txt"
 
-#Get the data, and put into a large array.
-with open (input_file, "r") as file:
-    data: List[int] = []
-    for line in file:
-        data.append(int(line.split()[0]))
-        data.append(int(line.split()[1]))
-
-#Sort data Smallest --> Largest
+#Get the data, and put into two arrays.
 list_a: List[int] = []
 list_b: List[int] = []
-for i, value in enumerate(data):
-    if i % 2 == 0: #If Even Number
-        list_a.append(value)
-    else: #If Odd Number
-        list_b.append(value)
+with open (input_file, "r") as file:
+    for line in file:
+        list_a.append(int(line.split()[0]))
+        list_b.append(int(line.split()[1]))
 
+#Sort the respective data sets
 list_a = sorted(list_a)
 list_b = sorted(list_b)
 sorted_data: List[int] = []

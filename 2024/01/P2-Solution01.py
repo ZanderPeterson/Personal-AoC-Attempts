@@ -2,7 +2,7 @@ from typing import List
 
 input_file: str = "input.txt"
 
-#Get the data, and put into a large array.
+#Get the data, and put into two arrays.
 list_a: List[int] = []
 list_b: List[int] = []
 with open (input_file, "r") as file:

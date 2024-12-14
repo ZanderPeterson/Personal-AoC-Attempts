@@ -108,4 +108,4 @@ for i in range(len(word_search[0])):
     answer += count_words(list_to_str(list_to_check, reverse=True), "XMAS")
 print(f"Diagonal Lines: {answer}")
 
-print(f"The Calculated Answer to AoC 2024-03 Part 1 for the provided '{input_file}' data set is: {answer}")
+print(f"The Calculated Answer to AoC 2024-04 Part 1 for the provided '{input_file}' data set is: {answer}")

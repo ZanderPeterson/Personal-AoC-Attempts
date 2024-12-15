@@ -36,4 +36,4 @@ with open (input_file, "r") as input_data:
             #Page order is good
             answer += book[len(book)//2]
 
-print(f"The Calculated Answer to AoC 2024-04 Part 1 for the provided '{input_file}' data set is: {answer}")
+print(f"The Calculated Answer to AoC 2024-05 Part 1 for the provided '{input_file}' data set is: {answer}")
